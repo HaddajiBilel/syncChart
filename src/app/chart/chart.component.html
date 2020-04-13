@@ -1,0 +1,7 @@
+<div>
+    <ejs-stockchart id="chart-container" [primaryXAxis]='primaryXAxis' [title]='title' [periods]='periods' [exportType]='exportType' [seriesType]='seriesType' [indicatorType]='indicatorType' [trendlineType]='trendlineType'>
+        <e-stockchart-series-collection>
+            <e-stockchart-series [dataSource]='chartData' type='Candle' xName='x' high='high' low='low' open='open' close='close' volume='volume' ></e-stockchart-series>
+        </e-stockchart-series-collection>
+    </ejs-stockchart>
+</div>
